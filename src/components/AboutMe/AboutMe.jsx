@@ -23,7 +23,7 @@ const AboutMe = () => {
           <div className="about__cards">
             <article className="about__card">
               <BsAward className="about__icon" />
-              <h5>Working Experience</h5>
+              <h5>Experience</h5>
               <small>2 Years</small>
             </article>
             <article className="about__card">
@@ -34,20 +34,21 @@ const AboutMe = () => {
             <article className="about__card">
               <TbFolders className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ Complete Projects</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            My name is Volodymyr. I'm 36 years old. For the last couple of years I work as frontend web developer.
-            My previous entire professional career has been associated with taking care about people problems, workflow management, 
-            teamwork and teaching other people in my specialty. This experience of work was a great school for building my soft skills.
+            For the last couple of years I work as frontend web developer after my career switch. My previous entire 
+            professional career has been associated with taking care about people problems, workflow management, 
+            teamwork and teaching other people in my specialty. This experience of work was a great school for building 
+            my soft skills. All these qualities I took with me into a web developer career.
           </p>
           <p>
             I'm very fond of web development cause it makes me feel my ability of creating something new. This is a profession that holds the 
             future and it provides great possibilities for my personal and professional growth. My love and ability to learn and gain new 
             knowledge and new skills, my life experience, my soft skills are leading me through the path of becoming a successful web 
-            developer. The ability to work as a web developer from any place of the world gives me an additional portion of inspiration.
+            developer.
           </p>
 
           <a href="#contact" className="btn btn-primary">Contact Me</a>
