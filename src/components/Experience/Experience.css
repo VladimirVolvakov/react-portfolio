@@ -1,0 +1,40 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience__container > div {
+  background: var(--background-color-alt);
+  padding: 2.5rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.experience__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-alt);
+  transition: var(--transition);
+}
+
+.experience__container--heading {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience__details--icon {
+  margin-top: 5px;
+  color: var(--color-primary);
+}
