@@ -18,7 +18,7 @@
 }
 
 .portfolio__item--image {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -31,4 +31,17 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
+}
+
+@media all and (max-width: 1024px) {
+  .portfolio__container {
+    gap: 2rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
