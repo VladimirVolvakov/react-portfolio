@@ -1,5 +1,6 @@
 .container.testimonials__container {
   width: 40%;
+  padding-bottom: 4rem;
 }
 
 .testimonials__item {
@@ -27,6 +28,10 @@
   margin: 1rem auto 0;
   color: var(--color-light);
   font-weight: 300;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
 }
 
 
