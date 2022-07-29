@@ -28,3 +28,28 @@
   color: var(--color-light);
   font-weight: 300;
 }
+
+
+@media all and (max-width: 1024px) {
+  .container.testimonials__container {
+    width: 60%;
+  }
+
+  .testimonials__item {
+    padding: 1.5rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container.testimonials__container {
+    width: 90%;
+  }
+
+  .testimonials__item {
+    padding: 1rem;
+  }
+
+  .testimonials__item--review {
+    width: 90%;
+  }
+}
