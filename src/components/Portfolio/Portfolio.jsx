@@ -1,7 +1,6 @@
 // Styles:
 import "./Portfolio.css";
 // Images:
-// import ReactMovieDatabaseImage from "../../assets/images/pf-4-movie-database.png";
 import ReactMovieDatabaseImage from "../../assets/images/movie-database.png";
 import ReactRealEstateMarketplaceImage from "../../assets/images/real-estate-marketplace.png";
 import PhotoBootcampImage from "../../assets/images/photo-bootcamp.png";
