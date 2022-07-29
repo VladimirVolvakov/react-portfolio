@@ -1,0 +1,34 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.portfolio__item {
+  background: var(--background-color-alt);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-primary-alt);
+  background: transparent;
+  transition: var(--transition);
+}
+
+.portfolio__item--image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio__item--heading {
+  text-align: center;
+  margin: 1rem 0 1.2rem;
+}
+
+.portfolio__item--call-to-action {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
