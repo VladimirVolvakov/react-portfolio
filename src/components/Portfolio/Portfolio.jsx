@@ -1,10 +1,11 @@
 // Styles:
 import "./Portfolio.css";
 // Images:
-import ReactMovieDatabaseImage from "../../assets/images/pf-4-movie-database.png";
-import ReactRealEstateMarketplaceImage from "../../assets/images/pf-3-real-estate-marketplace.png";
-import PhotoBootcampImage from "../../assets/images/pf-2-photo-bootcamp.png";
-import ReactWeatherAppImage from "../../assets/images/pf-1-weather-app.png";
+// import ReactMovieDatabaseImage from "../../assets/images/pf-4-movie-database.png";
+import ReactMovieDatabaseImage from "../../assets/images/movie-database.png";
+import ReactRealEstateMarketplaceImage from "../../assets/images/real-estate-marketplace.png";
+import PhotoBootcampImage from "../../assets/images/photo-bootcamp.png";
+import ReactWeatherAppImage from "../../assets/images/weather-app.png";
 
 const portfolioItems = [
   {
