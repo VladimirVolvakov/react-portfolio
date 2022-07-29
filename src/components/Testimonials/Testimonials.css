@@ -1,0 +1,30 @@
+.container.testimonials__container {
+  width: 40%;
+}
+
+.testimonials__item {
+  background: var(--background-color-alt);
+  text-align: justify;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.testimonials__item--client-photo {
+  width: 4rem;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.testimonials__item--client-name {
+  text-align: center;
+}
+
+.testimonials__item--review {
+  display: block;
+  width: 80%;
+  margin: 1rem auto 0;
+  color: var(--color-light);
+  font-weight: 300;
+}

@@ -16,30 +16,30 @@ const Testimonials = () => {
         <article className="testimonials__item">
           <div className="testimonials__item--client-photo">
             <img src={ClientPicture1} alt="My Client's avatar" />
-            <h5 className="testimonials__item--client-name">Person Name</h5>
-            <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
           </div>
+          <h5 className="testimonials__item--client-name">Person Name</h5>
+          <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
         </article>
         <article className="testimonials__item">
           <div className="testimonials__item--client-photo">
             <img src={ClientPicture2} alt="My Client's avatar" />
-            <h5 className="testimonials__item--client-name">Person Name</h5>
-            <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
           </div>
+          <h5 className="testimonials__item--client-name">Person Name</h5>
+          <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
         </article>
         <article className="testimonials__item">
           <div className="testimonials__item--client-photo">
             <img src={ClientPicture3} alt="My Client's avatar" />
-            <h5 className="testimonials__item--client-name">Person Name</h5>
-            <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
           </div>
+          <h5 className="testimonials__item--client-name">Person Name</h5>
+          <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
         </article>
         <article className="testimonials__item">
           <div className="testimonials__item--client-photo">
             <img src={ClientPicture4} alt="My Client's avatar" />
-            <h5 className="testimonials__item--client-name">Person Name</h5>
-            <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
           </div>
+          <h5 className="testimonials__item--client-name">Person Name</h5>
+          <small className="testimonials__item--review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut iure maiores deserunt, iusto odit molestias aliquam quod quisquam voluptatibus culpa pariatur animi porro iste? Aperiam ad ut dolores sunt!</small>
         </article>
       </div>
     </section>
