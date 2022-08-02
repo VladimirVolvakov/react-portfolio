@@ -55,6 +55,10 @@ footer {
 
 
 @media all and (max-width: 600px) {
+  .footer__logo {
+    font-size: 1.5rem;
+  }
+
   .footer__links {
     flex-direction: column;
     gap: 1.5rem;
