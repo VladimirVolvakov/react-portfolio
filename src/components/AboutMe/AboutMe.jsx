@@ -4,8 +4,8 @@ import "./AboutMe.css";
 import MyPhoto from "../../assets/images/me-about.jpg";
 // Icons:
 import { BsAward } from "react-icons/bs";
-import { FiUsers } from "react-icons/fi";
-import { TbFolders } from "react-icons/tb";
+// import { FiUsers } from "react-icons/fi";
+// import { TbFolders } from "react-icons/tb";
 
 const AboutMe = () => {
   return (
@@ -16,7 +16,7 @@ const AboutMe = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me--image">
-            <img src={MyPhoto} alt="About me picture" />
+            <img src={MyPhoto} alt="Frontend web developer Volodymyr Volvakov" />
           </div>
         </div>
         <div className="about__content">
@@ -26,7 +26,7 @@ const AboutMe = () => {
               <h5>Experience</h5>
               <small>2 Years</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>30+ Clients</small>
@@ -35,11 +35,11 @@ const AboutMe = () => {
               <TbFolders className="about__icon" />
               <h5>Projects</h5>
               <small>20+ Completed</small>
-            </article>
+            </article> */}
           </div>
 
           <p>
-            For the last couple of years I work as frontend web developer after my career switch. My previous entire 
+            For the last couple of years I work as frontend web developer after my decision about career switch. My previous entire 
             professional career has been associated with taking care about people problems, workflow management, 
             teamwork and teaching other people in my specialty. This experience of work was a great school for building 
             my soft skills. All these qualities I took with me into a web developer career.
