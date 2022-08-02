@@ -29,9 +29,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -59,7 +59,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section > h2,
@@ -118,10 +118,6 @@ img {
 @media all and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
   }
 }
 

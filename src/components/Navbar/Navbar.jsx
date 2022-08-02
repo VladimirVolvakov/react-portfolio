@@ -13,6 +13,7 @@ const Navbar = () => {
     <nav>
       <a 
         href="#" 
+        onClick={() => setActiveLink("#")}
         className={activeLink === "#" ? "active" : ""}
       >
         <AiOutlineHome />
