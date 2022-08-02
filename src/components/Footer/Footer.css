@@ -52,3 +52,15 @@ footer {
   margin-bottom: 5rem;
   color: var(--background-color);
 }
+
+
+@media all and (max-width: 600px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer__socialmedia {
+    margin-bottom: 2.5rem;
+  }
+}
