@@ -1,5 +1,5 @@
 // CV file:
-import CV from "../../assets/text/cv.pdf";
+import CV from "../../assets/text/cv.docx";
 
 const CallToAction = () => {
   return (
